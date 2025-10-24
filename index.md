@@ -3,26 +3,11 @@
 layout: home
 
 hero:
-  name: "My Awesome Project"
-  text: "A VitePress Site"
-  tagline: My great project tagline
+  name: "深入比特币：一场关于信任的革命"
+  text: "从双花问题到信任机器"
+  tagline: 本书将带您深入理解比特币的诞生背景、核心技术原理、交易生命周期及其深远影响。
   actions:
     - theme: brand
-      text: Markdown Examples
-      link: /markdown-examples
-    - theme: alt
-      text: API Examples
-      link: /api-examples
-    # 在首页添加一个新按钮
-    - theme: brand
-      text: Mermaid Examples
-      link: /mermaid-examples
-
-features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+      text: 开始阅读 →
+      link: /book/chapter1
 ---
