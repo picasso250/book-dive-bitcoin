@@ -1,9 +1,7 @@
-// .vitepress/config.mjs
 import { defineConfig } from 'vitepress'
-// 1. 正确地导入 withMermaid 函数
 import { withMermaid } from "vitepress-plugin-mermaid";
 
-// 2. 像往常一样定义您的配置，但先不要导出
+// https://vitepress.dev/reference/site-config
 const config = defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
@@ -11,6 +9,7 @@ const config = defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
+      // 在导航栏中添加新链接
       { text: 'Examples', link: '/markdown-examples' }
     ],
 
@@ -19,7 +18,9 @@ const config = defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          // 在侧边栏中添加新链接
+          { text: 'Mermaid Examples', link: '/mermaid-examples' }
         ]
       }
     ],
@@ -30,5 +31,4 @@ const config = defineConfig({
   }
 })
 
-// 3. 使用 withMermaid 包装您的配置并导出
 export default withMermaid(config)

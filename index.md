@@ -13,6 +13,10 @@ hero:
     - theme: alt
       text: API Examples
       link: /api-examples
+    # 在首页添加一个新按钮
+    - theme: brand
+      text: Mermaid Examples
+      link: /mermaid-examples
 
 features:
   - title: Feature A
@@ -22,4 +26,3 @@ features:
   - title: Feature C
     details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
 ---
-
