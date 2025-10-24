@@ -27,7 +27,19 @@ const config = defineConfig({
           { text: '第一章：比特币的诞生', link: '/book/chapter1' },
           { text: '第二章：比特币的引擎', link: '/book/chapter2' },
           { text: '第三章：一笔交易的生命周期', link: '/book/chapter3' },
-          { text: '第四章：特性与局限', link: '/book/chapter4' }
+          { text: '第四章：特性与局限', link: '/book/chapter4' },
+          { text: '第五章：看不见的战争', link: '/book/chapter5' },
+          { text: '第六章：第一次改良尝试', link: '/book/chapter6' },
+          { text: '第七章：以太坊诞生前的交易所', link: '/book/chapter7' },
+          { text: '第八章：第二次革命——以太坊', link: '/book/chapter8' },
+          { text: '第九章：看不见的双手', link: '/book/chapter9' },
+          { text: '第十章：金钱乐高与流动性狂潮', link: '/book/chapter10' },
+          { text: '第十一章：世界计算机的“堵车”难题', link: '/book/chapter11' },
+          { text: '第十二章：赌场之王', link: '/book/chapter12' },
+          { text: '第十三章：美元的幽灵——稳定币', link: '/book/chapter13' },
+          { text: '第十四章：真理的API', link: '/book/chapter14' },
+          { text: '第十五章：救生筏与走私船', link: '/book/chapter15' },
+          { text: '第十六章：帝国的规训', link: '/book/chapter16' }
         ]
       }
     ],
