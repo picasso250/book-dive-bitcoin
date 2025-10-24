@@ -21,7 +21,7 @@ const config = defineConfig({
     sidebar: [
       {
         text: '书籍目录', // 侧边栏分组标题
-        // collapsed: false, // 如果希望默认展开，可以设置 false
+        collapsed: false, // 如果希望默认展开，可以设置 false
         items: [
           // 这里的 link 必须与您的文件路径完全对应
           { text: '第一章：比特币的诞生', link: '/book/chapter1' },
@@ -45,11 +45,9 @@ const config = defineConfig({
     ],
 
     socialLinks: [
-      // 您可以替换成自己的 GitHub 链接
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/picasso250/book-dive-bitcoin' }
     ]
   }
 })
 
-// 如果您的书中用到了 mermaid 图表，请保留此项
 export default withMermaid(config)
