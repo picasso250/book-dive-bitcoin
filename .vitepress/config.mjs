@@ -4,8 +4,8 @@ import { withMermaid } from "vitepress-plugin-mermaid";
 // https://vitepress.dev/reference/site-config
 const config = defineConfig({
   // 网站的标题和描述，这是最重要的配置
-  title: "深入比特币",
-  description: "一本关于比特币原理的在线书籍",
+  title: "区块链ABC",
+  description: "一部由技术理想与资本现实驱动的区块链演进史",
   
   // 主题配置
   themeConfig: {
