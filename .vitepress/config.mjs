@@ -1,7 +1,10 @@
+// .vitepress/config.mjs
 import { defineConfig } from 'vitepress'
+// 1. 正确地导入 withMermaid 函数
+import { withMermaid } from "vitepress-plugin-mermaid";
 
-// https://vitepress.dev/reference/site-config
-export default defineConfig({
+// 2. 像往常一样定义您的配置，但先不要导出
+const config = defineConfig({
   title: "My Awesome Project",
   description: "A VitePress Site",
   themeConfig: {
@@ -26,3 +29,6 @@ export default defineConfig({
     ]
   }
 })
+
+// 3. 使用 withMermaid 包装您的配置并导出
+export default withMermaid(config)
